@@ -1,0 +1,32 @@
+http://inkarnepub-prod.elasticbeanstalk.com/Service1.svc/CreateUser/m/test/test/01/01/1980/test@gmail.com/987
+
+HM - updated web service below:
+
+http://inkarne-prod.elasticbeanstalk.com/Service1.svc/UpdateLikes/4/FC01/1
+
+Last parameter is Likes_Flag -> 0 for deletion, 1 for updation
+
+http://inkarne-prod.elasticbeanstalk.com/Service1.svc/UpdateCart/4/FC01/F052M1/1
+
+Last parameter is Cart_Flag -> 0 for deletion, 1 for updation
+
+//
+
+Have completed the registration screen web services and hosted onto the new inkarne public server. All of these functions also now return an Error_Code.
+
+1. CreateUser:
+http://inkarnepub-prod.elasticbeanstalk.com/Service1.svc/CreateUser/m/test/test/01/01/1980/test@gmail.com/987
+Format:
+
+2. CreateFace:
+http://inkarnepub-prod.elasticbeanstalk.com/Service1.svc/CreateFace/5/m/1/?Pic_Path=inkarne/users/1/1001.JPG&Fidicuals_Path=inkarne/users/1/1001.bpt.xml
+Format: CreateFace/{User_ID}/{Gender}/{Pic_Source}/?Pic_Path={Pic_Path}&Fidicuals_Path={Fidicuals_Path}
+
+3. CreateHairstyle
+http://inkarnepub-prod.elasticbeanstalk.com/Service1.svc/CreateHairstyle/5/36/MHS002/m
+Format: CreateHairstyle/{User_ID}/{Face_ID}/{Hairstyle_ID}/{Gender}
+
+4. CreateSpecs
+http://inkarnepub-prod.elasticbeanstalk.com/Service1.svc/CreateSpecs/5/36/MSP005/m
+Format: CreateSpecs/{User_ID}/{Face_ID}/{Specs_ID}/{Gender}
+

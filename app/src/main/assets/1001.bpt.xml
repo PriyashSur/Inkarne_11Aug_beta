@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="12">
+<val class_id="0" tracking_level="0" version="0">
+	<count>11</count>
+	<item_version>0</item_version>
+	<item class_id="1" tracking_level="0" version="0">
+		<column>856</column>
+		<row>817</row>
+	</item>
+	<item>
+		<column>283</column>
+		<row>796</row>
+	</item>
+	<item>
+		<column>662</column>
+		<row>899</row>
+	</item>
+	<item>
+		<column>493</column>
+		<row>899</row>
+	</item>
+	<item>
+		<column>689</column>
+		<row>1019</row>
+	</item>
+	<item>
+		<column>448</column>
+		<row>1006</row>
+	</item>
+	<item>
+		<column>710</column>
+		<row>730</row>
+	</item>
+	<item>
+		<column>444</column>
+		<row>722</row>
+	</item>
+	<item>
+		<column>825</column>
+		<row>1039</row>
+	</item>
+	<item>
+		<column>299</column>
+		<row>1015</row>
+	</item>
+	<item>
+		<column>557</column>
+		<row>1241</row>
+	</item>
+</val>
+</boost_serialization>
+

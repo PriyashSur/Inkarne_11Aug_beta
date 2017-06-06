@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "257898725759",
+    "project_id": "firebase-stylemylooks"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257898725759:android:c73fb1714036cda4",
+        "android_client_info": {
+          "package_name": "com.svc.sml"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6cHwbFemDMA2V7sy8esE2n2HrJ7q9oa8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-81490524-2" //UA-81490524-1
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

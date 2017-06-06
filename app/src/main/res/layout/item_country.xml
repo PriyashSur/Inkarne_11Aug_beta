@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:src="@drawable/f0in"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:layout_width="26dp"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:id="@+id/tv_telephone_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="+91"
+        android:textColor="@color/textColorPrimary"
+        android:gravity="center"/>
+
+</LinearLayout>

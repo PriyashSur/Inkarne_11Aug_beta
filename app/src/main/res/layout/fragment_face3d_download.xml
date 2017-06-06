@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/avatar_bg"
+    android:orientation="vertical"
+    tools:context="com.svc.sml.ShopActivity">
+
+    <RelativeLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                     />
+
+                <android.opengl.GLSurfaceView
+                    android:id="@+id/surfaceviewclass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </FrameLayout>
+
+            <com.svc.sml.HorizontalListView
+                android:id="@+id/hListView"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_gravity="bottom|center_horizontal"></com.svc.sml.HorizontalListView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+

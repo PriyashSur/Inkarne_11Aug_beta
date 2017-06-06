@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingRight="60dp"
+    android:paddingLeft="60dp"
+    android:paddingBottom="6dp"
+    android:background="#99ffffff">
+
+    <ProgressBar
+        android:id="@+id/pb_shopativity_glload"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:indeterminate="true"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="40"
+
+        android:minHeight="10dip"
+        android:gravity="center_horizontal"
+        android:progressDrawable="@drawable/progress_horizontal_color_shape"
+        />
+    <!--<com.svc.inkarne.Utility.ITextView-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:text="Loading..."
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/tcolor"
+            android:gravity="center_horizontal"
+        />
+</LinearLayout>
+

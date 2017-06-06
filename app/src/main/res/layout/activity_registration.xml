@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/ll_fragment_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <fragment android:id="@+id/fragment_reg"
+        android:name="com.svc.sml.Fragments.RegistrationFragment"
+        tools:layout="@layout/fragment_registration" android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
